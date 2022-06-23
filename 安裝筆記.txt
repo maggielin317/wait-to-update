@@ -1,0 +1,44 @@
+https://docs.microsoft.com/zh-tw/visualstudio/containers/troubleshooting-docker-errors?view=vs-2022
+
+從 [開始] 功能表中，開啟 [電腦管理]。
+展開 [本機使用者和群組]，然後選擇 [ 群組]。
+尋找 docker-users 群組，以滑鼠右鍵按一下並選擇 [ 新增至群組]。
+新增您的使用者帳戶或帳戶。
+登出並重新登入，讓這些變更生效。
+
+NT AUTHORITY\Authenticated Users(S-1-5-11)
+
+
+https://ithelp.ithome.com.tw/articles/10284746
+
+
+https://ithelp.ithome.com.tw/articles/10202177
+
+
+
+https://dev.to/bowmanjd/install-docker-on-windows-wsl-without-docker-desktop-34m9
+
+
+docker on ubuntu : https://docs.docker.com/engine/install/ubuntu/
+
+===============================
+
+https://www.cnblogs.com/olinblog/p/15481791.html
+
+\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\VBoxDrv
+
+登錄編輯程式
+
+
+
+virtualBox supR3hardenedwinrespawn -101
+
+==============================================================
+
+
+1.安裝virtualBox
+2.匯入OS
+3.控制台中Hyper-V相關的都要關閉
+4.匯入的OS記得要設定share file and 網卡
+
+
